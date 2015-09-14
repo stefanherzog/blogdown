@@ -9,7 +9,7 @@ image:
 
 <div class="tile">
   <h2 class="post-title">Who?</h2>
-  <p class="post-excerpt">I am a researcher at the intersection of <strong>cognitive science</strong> and <strong>judgment and decision making</strong> (<a href="/cv/cv-herzog-stefan.pdf">CV as PDF</a>).</p>
+  <p class="post-excerpt">I am a researcher at the intersection of <strong>cognitive science</strong> and <strong>judgment and decision making</strong> (see my <a href="/cv/">CV</a>).</p>
 </div><!-- /.tile -->
 
 <div class="tile">
