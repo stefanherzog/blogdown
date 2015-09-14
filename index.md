@@ -1,11 +1,30 @@
 ---
-layout: archive
+layout: home
 permalink: /
-title: "Latest Posts"
+image:
+  feature: wood-texture-1600x800.jpg
 ---
 
 <div class="tiles">
-{% for post in site.posts %}
-	{% include post-grid.html %}
-{% endfor %}
+
+<div class="tile">
+  <h2 class="post-title">AAA</h2>
+  <p class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+</div><!-- /.tile -->
+
+<div class="tile">
+  <h2 class="post-title">BBB</h2>
+  <p class="post-excerpt">Quisque dolor velit, auctor in ante vel, feugiat semper erat.</p>
+</div><!-- /.tile -->
+
+<div class="tile">
+  <h2 class="post-title">CCC</h2>
+  <p class="post-excerpt"> Vivamus efficitur velit tellus, ut convallis mauris semper sed. Sed ac dictum neque, non sollicitudin enim.</p>
+</div><!-- /.tile -->
+
+<div class="tile">
+  <h2 class="post-title">DDD</h2>
+  <p class="post-excerpt"> Nulla dolor nibh, aliquam et commodo non, auctor sit amet nulla.</p>
+</div><!-- /.tile -->
+
 </div><!-- /.tiles -->
