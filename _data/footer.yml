@@ -1,4 +1,19 @@
 # Footer navigation links
 
-- title:
-  url:
+- title: MPIB work website
+  url: https://www.mpib-berlin.mpg.de/en/staff/stefan-herzog
+
+- title: Center for Adaptive Rationality (ARC)
+  url: https://www.mpib-berlin.mpg.de/en/research/adaptive-rationality
+
+- title: "Max Planck Institute for Human Development, Berlin (MPIB)"
+  url: https://www.mpib-berlin.mpg.de/en/research/adaptive-rationality
+
+- title: GoogleScholar
+  url: "https://scholar.google.de/citations?user=WZIjp7YAAAAJ&hl=en"
+
+- title: Research Gate
+  url: https://www.researchgate.net/profile/Stefan_Herzog2
+
+- title: LinkedIn
+  url: http://de.linkedin.com/in/stefanmherzog
