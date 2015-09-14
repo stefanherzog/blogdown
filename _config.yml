@@ -1,7 +1,12 @@
 # Site wide configuration
 
-title: stefanherzog.org
-description: DESCRIPTION?!
+title: Stefan M. Herzog
+description:  
+  "I am a cognitive-science researcher interested in 
+  how to improve people’s judgment and decision making.
+  To this end I combine insights from research on  
+  heuristics and bounded rationality, wisdom of crowds 
+  and machine learning."
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale:
@@ -22,13 +27,14 @@ gems:
 
 # Site owner
 owner:
-  name: Stefan Herzog
+  name: Stefan M. Herzog
   email: herzog@mpib-berlin.mpg.de
+  web: http://stefanherzog.org
   twitter:
   google:
     ad-client: 
     ad-slot: 
-  bio: 
+  bio: I am a cognitive-science researcher interested in how to improve people’s judgment and decision making.
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname:
 
