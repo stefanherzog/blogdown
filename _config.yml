@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title:
-description:
+title: stefanherzog.org
+description: DESCRIPTION?!
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale:
-url:
+url: # ?!
 
 # Jekyll configuration
 
@@ -22,8 +22,8 @@ gems:
 
 # Site owner
 owner:
-  name:
-  email:
+  name: Stefan Herzog
+  email: herzog@mpib-berlin.mpg.de
   twitter:
   google:
     ad-client: 
