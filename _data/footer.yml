@@ -1,7 +1,10 @@
 # Footer navigation links
 
-- title: Stefan <br />Herzog's CV
-  url: /cv/cv-herzog-stefan.pdf
+- title: Home
+  url: /
+
+- title: CV
+  url: /cv/
 
 - title: MPIB <br />work website
   url: https://www.mpib-berlin.mpg.de/en/staff/stefan-herzog
