@@ -14,7 +14,7 @@ image:
 
 <div class="tile">
   <h2 class="post-title">What?</h2>
-  <p class="post-excerpt">I am interested in how to <strong>improve judgment and decision making</strong>. To this end I combine insights from bounded rationality, heuristics, collective intelligence (&quot;wisdom of crowds&quot;), data science, and machine learning.
+  <p class="post-excerpt">I am interested in how to <strong>improve judgment and decision making</strong>. To this end I combine insights from cognitive science, bounded rationality, heuristics, collective intelligence (&quot;wisdom of crowds&quot;), data science, and machine learning.
     <!-- inner crowd -->
 </p>
 </div><!-- /.tile -->
