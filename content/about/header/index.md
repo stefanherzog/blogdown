@@ -3,7 +3,7 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hi, my name is Hugo Apéro. Nice to meet you.
+  Hi, my name is Stefan Herzog. Nice to meet you.
 ---
 
 <!-- this is a subheadline -->

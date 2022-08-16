@@ -1,20 +1,19 @@
 ---
-action_label: Read More &rarr;
+action_label: More about me &rarr;
 action_link: /about
 action_type: text
-description: Sit down, relax, and get to know Hugo Apéro. Built on top of Blogophonic,
-  we wanted to create a polished Hugo theme with the right features for a true personal
-  website. We set out to create a theme that is a pleasure to learn, and one that
-  helps others get to know you better. It is more than a blog, with flexible custom
-  layouts that help you introduce yourself online.
-image_left: true
+description:
+  I study how to boost human judgment and decision making (<a href='https://scienceofboosting.org' target = '_blank'>scienceofboosting.org</a>) by investigating human and machine behavior and how humans themselves understand machines. I combine insights and methods from cognitive science, collective intelligence ("wisdom of crowds"), heuristics, and algorithms.<br/><br/>
+  
+  I also work on <a href='sks.to/rao' target = '_blank'>applications in digital environments</a>, medical decision making, and meteorology. Furthermore, I am co-leading an initiative on reconfiguring behavioral science for crisis knowledge management in response to COVID-19 and other, future disruptive events (<a href='https://scibeh.org' target = '_blank'>scibeh.org</a>).
+image_left: false
 images:
-- img/revoir.jpg
+- img/eric-krull-Ejcuhcdfwrs-unsplash.jpg
 show_action_link: true
 show_social_links: true
-subtitle: A Hugo theme you'll want to hang out with
+#subtitle: Improving judgment and decision making
 text_align_left: false
-title: Hugo Apéro
+title: Stefan Herzog
 type: home
 ---
 

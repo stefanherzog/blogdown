@@ -1,7 +1,7 @@
-baseURL = "/"
+baseURL = "https://stefanherzog.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Boosting judgment and decision making"
+title = "Stefan Herzog's research website"
 author = "Stefan M. Herzog"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
@@ -31,9 +31,9 @@ enableEmoji = true
   orgName = "Stefan M. Herzog"
   orgLocal = ""
   description = "Stefan Herzog's research website"
-  favicon = "/img/favicon.ico" #TODO?
+  favicon = "/img/favicon.ico" #TODO? #!
   logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "project", "talk"]
+  mainSections = []
   navallcaps = false #! was true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -61,20 +61,20 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
+  customtextFontFamily = "Avenir"
+  customheadingFontFamily = "Avenir"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
   headingFontFamily = "sans-serif"
 
   # Configuration of https://utteranc.es/ for comments
-  [params.utterances]
-    use_utterances = true
-    repo_name = "apreshill/apero"
-    issue_term = "pathname" # url, pathname, or title
-    theme = "boxy-light"
-    label = "comments :crystal_ball:"
+  #[params.utterances]
+  #  use_utterances = false
+  #  repo_name = "apreshill/apero"
+  #  issue_term = "pathname" # url, pathname, or title
+  #  theme = "boxy-light"
+  #  label = "comments :crystal_ball:"
 
   # Configuration of math rendering
   [params.math]
@@ -167,11 +167,11 @@ enableEmoji = true
   #  title = "License"
   #  url = "/license/"
   #  weight = 1
-  [[menu.footer]]
-    name = "Contact"
-    title = "Contact form"
-    url = "/contact/"
-    weight = 2
+  #[[menu.footer]]
+  #  name = "Contact"
+  #  title = "Contact form"
+  #  url = "/contact/"
+  #  weight = 2
   #[[menu.footer]]
   #  name = "Contributors"
   #  title = "Contributors"
