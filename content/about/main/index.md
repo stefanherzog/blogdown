@@ -6,6 +6,9 @@ use_featured: false # if false, use most recent by date
 number_categories: 0 # set to zero to exclude
 show_intro: true
 intro: |
+
+  <small><i>See also <a href='../cv/cv-herzog-stefan.pdf' target='_blank'>my full PDF-CV</a></i></small>
+
   I study how to boost human judgment and decision making (<a href='https://scienceofboosting.org' target = '_blank'>scienceofboosting.org</a>) by investigating human and machine behavior and how humans themselves understand machines. I combine insights and methods from cognitive science, collective intelligence ("wisdom of crowds"), heuristics, and algorithms.
   
   I also work on <a href='sks.to/rao' target = '_blank'>applications in digital environments</a>, medical decision making, and meteorology. Furthermore, I am co-leading an initiative on reconfiguring behavioral science for crisis knowledge management in response to COVID-19 and other, future disruptive events (<a href='https://scibeh.org' target = '_blank'>scibeh.org</a>).
