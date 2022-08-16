@@ -138,7 +138,7 @@ enableEmoji = true
   [[menu.header]]
     name = "CV"
     title = "My CV"
-    url = "/cv/cv-herzog-stefan.pdf"
+    url = "/cv/"
     weight = 2  
   #[[menu.header]]
   #  name = "Blog"
