@@ -87,10 +87,6 @@ enableEmoji = true
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
 
   [[params.social]]
-      icon      = "safari" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://scholar.google.com/citations?user=WZIjp7YAAAAJ&hl=en"
-  [[params.social]]
       icon      = "google-scholar" # icon name without the 'fa-'
       icon_pack = "ai"
       url       = "https://scholar.google.com/citations?user=WZIjp7YAAAAJ&hl=en"
@@ -110,6 +106,10 @@ enableEmoji = true
       icon      = "publons" # icon name without the 'fa-'
       icon_pack = "ai"
       url       = "http://publons.com/researcher/2878275/stefan-herzog/"
+  [[params.social]]
+      icon      = "safari" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://www.mpib-berlin.mpg.de/staff/stefan-herzog"
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
