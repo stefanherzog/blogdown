@@ -7,7 +7,7 @@ number_categories: 0 # set to zero to exclude
 show_intro: true
 intro: |
 
-  <small><i>See also <a href='../cv/'>my full CV</a></i></small>
+  <small><i>See also <a href='../cv/'>my full CV</a>.</i></small>
 
   I study how to boost human judgment and decision making (<a href='https://scienceofboosting.org' target = '_blank'>scienceofboosting.org</a>) by investigating human and machine behavior and how humans themselves understand machines. I combine insights and methods from cognitive science, collective intelligence ("wisdom of crowds"), heuristics, and algorithms.
   
