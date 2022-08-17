@@ -127,15 +127,20 @@ enableEmoji = true
 [menu]
   # Configure header 
   [[menu.header]]
+    name = "Home"
+    title = "Home"
+    url = "/"
+    weight = 1
+  [[menu.header]]
     name = "About"
     title = "About me"
     url = "/about/"
-    weight = 1
+    weight = 2
   [[menu.header]]
     name = "CV"
     title = "My CV"
     url = "/cv/"
-    weight = 2  
+    weight = 3  
   #[[menu.header]]
   #  name = "Blog"
   #  title = "Blog"
