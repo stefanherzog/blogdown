@@ -94,18 +94,18 @@ enableEmoji = true
       icon      = "osf" # icon name without the 'fa-'
       icon_pack = "ai"
       url       = "https://osf.io/gv3ka/"
-  [[params.social]]
-      icon      = "researchgate" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "https://www.researchgate.net/profile/Stefan-Herzog"
+  #[[params.social]]
+  #    icon      = "researchgate" # icon name without the 'fa-'
+  #    icon_pack = "ai"
+  #    url       = "https://www.researchgate.net/profile/Stefan-Herzog"
   [[params.social]]
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
       url       = "https://orcid.org/0000-0003-2329-6433"
-  [[params.social]]
-      icon      = "publons" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "http://publons.com/researcher/2878275/stefan-herzog/"
+  #[[params.social]]
+  #    icon      = "publons" # icon name without the 'fa-'
+  #    icon_pack = "ai"
+  #    url       = "http://publons.com/researcher/2878275/stefan-herzog/"
   [[params.social]]
       icon      = "safari" # icon name without the 'fa-'
       icon_pack = "fab"
