@@ -111,9 +111,9 @@ enableEmoji = true
       icon_pack = "fab"
       url       = "https://www.mpib-berlin.mpg.de/staff/stefan-herzog"
   [[params.social]]
-      icon      = "twitter" # icon name without the 'fa-'
+      icon      = "bluesky" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/stefanmherzog"
+      url       = "https://bsky.app/profile/stefanherzog.bsky.social"
   [[params.social]]
       icon      = "linkedin-in" # icon name without the 'fa-'
       icon_pack = "fab"

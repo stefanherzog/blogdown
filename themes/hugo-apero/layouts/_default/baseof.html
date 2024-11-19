@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}" dir="ltr">
     {{- partial "head.html" . -}}
+    <script defer src="https://use.fontawesome.com/releases/v6.5.2/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons/css/academicons.min.css">
+
     <body>
       <div class="grid-container{{ if .Params.layout }} {{ .Params.layout }}{{ end }}{{ if .IsHome }} home{{ end }}">
         {{- block "header" . }}{{- partial "header.html" . -}}{{- end }}
