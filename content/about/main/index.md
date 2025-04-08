@@ -14,7 +14,7 @@ intro: |
   My current research areas are:
   
   1. **Hybrid human–AI decision making and collective intelligence**
-  2. **Risks and benefits of digitalization, AI, & new media**: Systems and behavioral interventions for resilient citizens, organizations, & societies
+  2. **Risks and benefits of digitalization, AI, & new media: Systems and behavioral interventions for resilient citizens, organizations, & societies**
   3. **Boosting: Improving human judgment and decision making in individuals and teams**
 
   My work addresses key challenges facing individuals, organizations, and societies: building better and more trustworthy hybrid human–AI teams, ensuring AI supports (rather than erodes) human competences, and strengthening resilience against misinformation, manipulation, and risks of generative AI.
