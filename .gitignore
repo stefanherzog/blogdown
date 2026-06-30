@@ -8,3 +8,8 @@ _asset_bundler_cache
 .sass-cache
 .Rproj.user
 /.Rhistory
+
+# Hugo generated output / runtime artifacts (Netlify rebuilds from source on master)
+/public/
+/resources/_gen/
+.hugo_build.lock
