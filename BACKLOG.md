@@ -20,6 +20,7 @@ See [README.md](README.md) for the edit/preview/deploy workflow and [CLAUDE.md](
 
 - [ ] **Replace the generic social-share image** `[S]` — `og:image`/`twitter:image` point at `static/img/robots.jpg` (a generic robot illustration), set via `sharing_image` in `config.toml`. It's the thumbnail shown when the site is shared (Bluesky/LinkedIn/Twitter). Consider a photo of Stefan or a research-themed image: drop it in `static/img/` and update `sharing_image`. Discretionary.
 - [ ] **Decide which demo sections go live** `[L]` — `blog` / `talks` / `projects` / `collection` are dormant hugo-apero exampleSite content (menus commented out in `config.toml`). Decide which to activate. Each still carries template meta descriptions that must be fixed on activation (see CLAUDE.md → Where content lives).
+- [ ] **Inventory and resolve legacy drift** `[M]` — Deliberate pass to decide what to keep, rename, or remove from the repo's blogdown/GitHub-Pages origins. Known items: GitHub repo named `blogdown` and local folder named `stefanherzog.github.io` are both misnomers — rename for clarity? Vestigial R/blogdown scaffolding (`index.Rmd`, empty `R/build.R` & `R/build2.R`, `.Rprofile`, `.Rproj`) no longer runs (editing is in Zed, the build is plain Hugo) — remove if R/RStudio is truly unused? Two drift items are tracked separately and not duplicated here: the failing GitHub Pages deploy (Now → "Disable GitHub Pages build") and dormant demo content (Later → "Decide which demo sections go live"). Meanwhile, don't trust the repo's surface names/structure.
 
 ## Done
 
