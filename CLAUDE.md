@@ -25,6 +25,8 @@ In practice the site is plain Hugo + Markdown. The blogdown/R layer is vestigial
 - **Default (most changes):** preview locally (`hugo server`), commit, push straight to `master`. This is the right path for content edits — text, links, images, the CV PDF — where a local preview is enough.
 - **Bigger/riskier changes** (theme/layout, `config.toml` or build settings, CSS, case-sensitive-filename risks, or when a shareable preview helps): use GitHub Flow — branch off `master`, push, open a PR, review the Netlify **Deploy Preview** (`deploy-preview-<n>--stefanherzog.netlify.app`), then merge. Delete the branch after merge. No long-lived `dev`/staging branch.
 
+**Push reminders (convention for CC):** only flag that `master` needs pushing when the unpushed commits include a **visible change to the live site** (content, layout, styling). For docs-only, backlog, or other internal changes, don't prompt to push — the user pushes via Tower on their own cadence.
+
 A Netlify preview catches what local `hugo server` can't: production-environment rendering (`HUGO_ENV=production` gates minification/analytics/`noindex`), case-sensitive-filename bugs (macOS is case-insensitive, Netlify's Linux build is not), and whether the build actually succeeds. Note the preview build overrides `baseURL` with its own URL (`hugo -b $DEPLOY_PRIME_URL`), so production canonical/`og:url` output only appears on the real `master` build, never in a preview. Never force-push or amend a commit already on a pushed/open PR branch.
 
 ## Where content lives
@@ -50,6 +52,7 @@ Leftover placeholder text from the template is a known hazard — check before a
 - Theme palette is selected via `params.theme = "grayscale"` in `config.toml`; the built-in palettes live in `assets/theme/`.
 - Site-specific overrides: `assets/custom.scss` (small) and `assets/custom-fonts.scss` (`@font-face` blocks for the bundled webfonts). The active text/heading font is set by `customtextFontFamily`/`customheadingFontFamily` in `config.toml` (currently an Avenir-led stack with cross-platform fallbacks ending in `sans-serif`), injected into SCSS via `assets/scaffold.scss`. Prefer editing these over touching `themes/hugo-apero/`. Note Avenir is Apple-only; non-Apple devices land on the fallbacks.
 - `themes/hugo-apero/` is a **vendored copy** of the upstream theme (not a git submodule). It is committed directly. Avoid editing it; overrides belong in the project's `assets/` and `layouts/`. The only project-level layout override is `layouts/shortcodes/blogdown/postref.html`.
+- **Design skill threshold**: for minor tweaks (palette swap, single SCSS property, font stack change), edit `assets/custom.scss` or `config.toml` directly. For any work involving new layout structure, activating a dormant section, or a visual redesign, invoke the `frontend-design` skill before touching code.
 
 ## Conventions
 
