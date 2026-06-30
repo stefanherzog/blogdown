@@ -19,7 +19,12 @@ In practice the site is plain Hugo + Markdown. The blogdown/R layer is vestigial
 
 ## Git workflow
 
-**GitHub Flow.** `master` is the single long-lived branch and *is* production — every push to it auto-deploys via Netlify. For any non-trivial change: branch off `master`, push, open a PR, review the Netlify **Deploy Preview** (auto-posted on the PR as `deploy-preview-<n>--stefanherzog.netlify.app`), then merge to `master` to release. Delete the feature branch after merge. No long-lived `dev`/staging branch. Trivial content swaps (e.g. replacing the CV PDF) may go straight to `master` given Netlify's one-click rollback. Never force-push or amend a commit already on a pushed/open PR branch.
+**`master` is production** — every push to it auto-deploys via Netlify, and any past deploy can be restored with one click, so mistakes are cheap.
+
+- **Default (most changes):** preview locally (`hugo server`), commit, push straight to `master`. This is the right path for content edits — text, links, images, the CV PDF — where a local preview is enough.
+- **Bigger/riskier changes** (theme/layout, `config.toml` or build settings, CSS, case-sensitive-filename risks, or when a shareable preview helps): use GitHub Flow — branch off `master`, push, open a PR, review the Netlify **Deploy Preview** (`deploy-preview-<n>--stefanherzog.netlify.app`), then merge. Delete the branch after merge. No long-lived `dev`/staging branch.
+
+A Netlify preview catches what local `hugo server` can't: production-environment rendering (`HUGO_ENV=production` gates minification/analytics/`noindex`), case-sensitive-filename bugs (macOS is case-insensitive, Netlify's Linux build is not), and whether the build actually succeeds. Note the preview build overrides `baseURL` with its own URL (`hugo -b $DEPLOY_PRIME_URL`), so production canonical/`og:url` output only appears on the real `master` build, never in a preview. Never force-push or amend a commit already on a pushed/open PR branch.
 
 ## Where content lives
 
