@@ -2,7 +2,7 @@
 
 Source for [www.stefanherzog.org](https://www.stefanherzog.org). A static site built with [Hugo](https://gohugo.io/) (the [hugo-apero](https://hugo-apero-docs.netlify.app/) theme), scaffolded as an R [blogdown](https://bookdown.org/yihui/blogdown/) project, and deployed on [Netlify](https://www.netlify.com/).
 
-In practice it's plain Hugo + Markdown — the R/blogdown layer is dormant. Most content is Markdown front matter under `content/`; see [CLAUDE.md](CLAUDE.md) for the architecture in depth.
+In practice it's plain Hugo + Markdown — the R/blogdown layer is dormant. Most content is Markdown front matter under `content/`; see [CLAUDE.md](CLAUDE.md) for the architecture in depth. Open tasks and roadmap live in [BACKLOG.md](BACKLOG.md).
 
 ## Preview locally
 
