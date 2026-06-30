@@ -9,7 +9,7 @@ In practice it's plain Hugo + Markdown — the R/blogdown layer is dormant. Most
 Hugo is pinned to `0.101.0`. blogdown keeps that exact binary cached, so you can preview without installing anything:
 
 ```
-"/Users/herzog/Library/Application Support/Hugo/0.101.0/hugo" server
+"$HOME/Library/Application Support/Hugo/0.101.0/hugo" server
 ```
 
 Then open <http://localhost:1313/>. The server live-reloads as you edit. (From RStudio, `blogdown::serve_site()` does the same.)
