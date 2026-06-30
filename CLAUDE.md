@@ -15,6 +15,7 @@ In practice the site is plain Hugo + Markdown. The blogdown/R layer is vestigial
 - Local preview: `hugo server` (or from R/RStudio, `blogdown::serve_site()`). Match Hugo `0.101.0` — newer Hugo versions can break this theme.
 - The `0.101.0` pin (mid-2022, set in `netlify.toml` and `.Rprofile`) is **frozen by neglect, not a deliberate lock**. Evaluating an upgrade (what changed since 0.101.0, whether hugo-apero still works) is a planned task — upgrading is fair game, just do it deliberately and test the theme.
 - `public/` is empty and not the deploy artifact; Hugo regenerates output at build time. Do not hand-edit `public/`.
+- The Netlify dashboard is accessed by **logging in with GitHub** (GitHub OAuth) — the Netlify account is tied to the GitHub account, not a separate Netlify email/password.
 - **Generated artifacts are gitignored, not committed**: `public/` (rendered HTML), `resources/_gen/` (Hugo's compiled-SCSS cache), and `.hugo_build.lock`. Netlify rebuilds everything from source on each `master` push, so never re-commit these. Corollary: a CSS/font change in `config.toml` or `assets/*.scss` takes effect from source — you don't need to (and shouldn't) commit the regenerated `resources/_gen/` cache.
 
 ## Git workflow
