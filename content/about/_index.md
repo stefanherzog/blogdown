@@ -1,8 +1,10 @@
 ---
 cascade:
   headless: true
-description: |
-  A website template for Hugo developed by RStudio & Formspree and available for free.
+description: >-
+  Research profile and short bio of Stefan Herzog, senior research scientist at the
+  Center for Adaptive Rationality, Max Planck Institute for Human Development — studying
+  how to boost human judgment and decision making.
 show_header: false
 sidebar_left: true
 title: About me
