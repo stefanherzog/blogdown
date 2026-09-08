@@ -22,7 +22,7 @@ In practice the site is plain Hugo + Markdown. The blogdown/R layer is vestigial
 
 **`master` is production** — every push to it auto-deploys via Netlify, and any past deploy can be restored with one click, so mistakes are cheap.
 
-- **Default (most changes):** preview locally (`hugo server`), commit, push straight to `master`. This is the right path for content edits — text, links, images, the CV PDF — where a local preview is enough.
+- **Default (most changes):** preview locally (`hugo server`), commit. This is the right path for content edits — text, links, images, the CV PDF — where a local preview is enough.
 - **Bigger/riskier changes** (theme/layout, `config.toml` or build settings, CSS, case-sensitive-filename risks, or when a shareable preview helps): use GitHub Flow — branch off `master`, push, open a PR, review the Netlify **Deploy Preview** (`deploy-preview-<n>--stefanherzog.netlify.app`), then merge. Delete the branch after merge. No long-lived `dev`/staging branch.
 
 **Push reminders (convention for CC):** only flag that `master` needs pushing when the unpushed commits include a **visible change to the live site** (content, layout, styling). For docs-only, backlog, or other internal changes, don't prompt to push — the user pushes via Tower on their own cadence.
